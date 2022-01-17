@@ -56,8 +56,6 @@ function getRandomQuote() {
   // 3. Return the variable storing the random quote object
   return randomQuote;
 }
-
-
 /***
  * `printQuote` function
 ***/
@@ -73,8 +71,6 @@ if (rQO.year) {
 htmlString += `</p>`;
 return document.getElementById('quote-box').innerHTML = htmlString; 
 }
-
-
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
