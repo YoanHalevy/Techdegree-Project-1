@@ -62,6 +62,7 @@ function printQuote() {
     htmlString += `<span class="year">${rQO.tags}</span>`;
   }
   htmlString += `</p>`;
+  document.body.style.backgroundColor = '#' + Math.random().toString(16).slice(2,8);
   return document.getElementById('quote-box').innerHTML = htmlString; 
 }
 // Setting a 10 second refresh rate for the quotes
